@@ -470,35 +470,55 @@ begin
     ExcludeMorph('FFOTigerRace', FEMALE, 'Child Neck');
     ExcludeMorph('FFOTigerRace', MALE, 'Child Neck');
 
-    // ---------- Sharks ---------- 
-    AddChildRace('aaaSharkRace', 'FFOOtterChildRace');
+	// --- Custom Races -----------
+	// --- Tune probabilities to --
+	// --- personal preference ----
 
-    SetTintProbability('aaaSharkRace', MALE, TL_EYELINER, 10);
+    // ---------- Sharks ---------- 
+    AddChildRace('aaaSharkRace', 'FFOOtterChildRace'); // Selachii are most common in Far Harbor, similar to Otters
+    SetHeadpartProb('aaaSharkRace', MALE, HEADPART_FACIAL_HAIR, 40); // Double Teeth Row
+    SetHeadpartProb('aaaSharkRace', FEMALE, HEADPART_FACIAL_HAIR, 40); // Double Teeth Row
+
+    SetTintProbability('aaaSharkRace', MALE, TL_EYELINER, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_PAINT, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_MASK, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_NOSE, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_CHIN, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_MUZZLE, 0);
     SetTintProbability('aaaSharkRace', MALE, TL_FOREHEAD, 0);
-    SetTintProbability('aaaSharkRace', MALE, TL_MUZZLE_STRIPE, 30);
-    SetTintProbability('aaaSharkRace', FEMALE, TL_EYELINER, 10);
+    SetTintProbability('aaaSharkRace', MALE, TL_MISC, 0);
+    SetTintProbability('aaaSharkRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('aaaSharkRace', MALE, TL_SCAR, 0);
+    SetTintProbability('aaaSharkRace', FEMALE, TL_EYELINER, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_PAINT, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_MASK, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_NOSE, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_CHIN, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_MUZZLE, 0);
     SetTintProbability('aaaSharkRace', FEMALE, TL_FOREHEAD, 0);
-    SetTintProbability('aaaSharkRace', FEMALE, TL_MUZZLE_STRIPE, 30);
-	
-	SetTintColors('aaaSharkRace', FEMALE, TL_EYELINER, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintProbability('aaaSharkRace', FEMALE, TL_MISC, 0);
+    SetTintProbability('aaaSharkRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('aaaSharkRace', FEMALE, TL_SCAR, 0);
+
+    SetTintColors('aaaSharkRace', FEMALE, TL_EYELINER, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_PAINT, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_MASK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_NOSE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_CHIN, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_MUZZLE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
     SetTintColors('aaaSharkRace', FEMALE, TL_FOREHEAD, '|black|');
+    SetTintColors('aaaSharkRace', FEMALE, TL_MISC, '|black|');
     SetTintColors('aaaSharkRace', FEMALE, TL_MUZZLE_STRIPE, '|black|');
-	
+    SetTintColors('aaaSharkRace', MALE, TL_EYELINER, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_PAINT, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_MASK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_NOSE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_CHIN, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_MUZZLE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('aaaSharkRace', MALE, TL_FOREHEAD, '|black|');
+    SetTintColors('aaaSharkRace', MALE, TL_MISC, '|black|');
+    SetTintColors('aaaSharkRace', MALE, TL_MUZZLE_STRIPE, '|black|');
+
     SetMorphProbability('aaaSharkRace', FEMALE, 'Eyes', 70, 0, 80, SKEW1);
     SetMorphProbability('aaaSharkRace', FEMALE, 'Nose', 100, 0, 100, SKEW1);
     ExcludeMorph('aaaSharkRace', FEMALE, 'Mouth');
@@ -517,6 +537,24 @@ begin
     SetMorphProbability('aaaSharkRace', FEMALE, 'SLIDER - Lips In/Out', 75, 0, 100, EVEN);
     SetMorphProbability('aaaSharkRace', FEMALE, 'SLIDER - Nose Long/Short', 75, 0, 100, EVEN);
     SetMorphProbability('aaaSharkRace', FEMALE, 'SLIDER - Overbite/Underbite', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'Eyes', 70, 0, 80, SKEW1);
+    SetMorphProbability('aaaSharkRace', MALE, 'Nose', 100, 0, 100, SKEW1);
+    ExcludeMorph('aaaSharkRace', MALE, 'Mouth');
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Brows Back/Forward', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Brows In/Out', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Brows Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Nose Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Cheeks Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Cheeks In/Out', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Chin Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Chin Thin/Wide', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Jaw Back/Forward', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Jaw Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Jaw Narrow/Wide', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Lips Up/Down', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Lips In/Out', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Nose Long/Short', 75, 0, 100, EVEN);
+    SetMorphProbability('aaaSharkRace', MALE, 'SLIDER - Overbite/Underbite', 75, 0, 100, EVEN);
 
     SetFaceMorph('aaaSharkRace', MALE, 'Nose - Full', 
         {loc min} 0, 0, -0.6,  {rot min} 0, 0, 0, {scale min} 0,
@@ -524,7 +562,190 @@ begin
     SetFaceMorph('aaaSharkRace', FEMALE, 'Nose - Full', 
         {loc min} 0, 0, -0.6,  {rot min} 0, 0, 0, {scale min} 0,
         {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
-	
+
+    // ---------- Proto-Argonians ---------- 
+    AddChildRace('PA_ProtoArgonianRace', 'FFOSnekdogChildRace'); // Reptilian
+    SetHeadpartProb('PA_ProtoArgonianRace', MALE, HEADPART_FACIAL_HAIR, 90); // Horns (& fins)
+    SetHeadpartProb('PA_ProtoArgonianRace', FEMALE, HEADPART_FACIAL_HAIR, 90); // Horns (& fins)
+
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_CHEEK_COLOR, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_EYEBROW, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_FOREHEAD, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_LIP_COLOR, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_MISC, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_MUZZLE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_MUZZLE_STRIPE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_NECK, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_PAINT, 0);
+    SetTintProbability('PA_ProtoArgonianRace', FEMALE, TL_SCAR, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_CHEEK_COLOR, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_EYEBROW, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_FOREHEAD, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_LIP_COLOR, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_MASK, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_MISC, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_MUZZLE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_MUZZLE_STRIPE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_NECK, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_NOSE, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_PAINT, 0);
+    SetTintProbability('PA_ProtoArgonianRace', MALE, TL_SCAR, 0);
+
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_CHEEK_COLOR, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_EYEBROW, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_EYELINER, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_FOREHEAD, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_LIP_COLOR, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_MASK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_MISC, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_MUZZLE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_MUZZLE_STRIPE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_NECK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_NOSE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', FEMALE, TL_PAINT, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_CHEEK_COLOR, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_EYEBROW, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_EYELINER, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_FOREHEAD, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_LIP_COLOR, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_MASK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_MISC, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_MUZZLE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_MUZZLE_STRIPE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_NECK, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_NOSE, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+    SetTintColors('PA_ProtoArgonianRace', MALE, TL_PAINT, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
+
+    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Eyes', 70, 0, 100, EVEN);
+    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Cheeks', 70, 50, 100, SKEW1);
+    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Nose', 70, 0, 100, EVEN);
+    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Eyes', 70, 0, 100, EVEN);
+    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Cheeks', 70, 50, 100, SKEW1);
+    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Nose', 70, 0, 100, EVEN);
+
+    SetFaceMorph('PA_ProtoArgonianRace', MALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+    SetFaceMorph('PA_ProtoArgonianRace', FEMALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+
+    // ---------- T-Rex Dinos ---------- 
+    AddChildRace('DN_DinosaurRace', 'FFOSnekdogChildRace'); // Reptilian
+    SetHeadpartProb('DN_DinosaurRace', MALE, HEADPART_FACIAL_HAIR, 30); // Piercings
+    SetHeadpartProb('DN_DinosaurRace', FEMALE, HEADPART_FACIAL_HAIR, 30); // Piercings
+
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_NOSE, 0);
+
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurRace', MALE, TL_NOSE, '|black|');
+
+    SetMorphProbability('DN_DinosaurRace', FEMALE, 'Nose - Full', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurRace', MALE, 'Nose - Full', 50, 100, 100, EVEN);
+
+    SetFaceMorph('DN_DinosaurRace', MALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+    SetFaceMorph('DN_DinosaurRace', FEMALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+
+
+    // ---------- Parasaurolophus Dinos ---------- 
+    AddChildRace('DN_DinosaurParaRace', 'FFOSnekdogChildRace'); // Reptilian
+
+    SetTintProbability('DN_DinosaurParaRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurParaRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurParaRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurParaRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurParaRace', FEMALE, TL_NECK, 0);
+    SetTintProbability('DN_DinosaurParaRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurParaRace', MALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurParaRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurParaRace', MALE, TL_NOSE, 0);
+
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_MUZZLE, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_NECK, '|black|');
+    SetTintColors('DN_DinosaurParaRace', FEMALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurParaRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', MALE, TL_MUZZLE, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurParaRace', MALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurParaRace', MALE, TL_NOSE, '|black|');
+
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Eyes', 60, 0, 100, SKEW1);
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Nose - Full', 50, 0, 100, SKEW1);
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Crest', 100, 0, 100, SKEW0);
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Teeth', 30, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Crest Texture', 50, 20, 100, EVEN);
+    SetMorphProbability('DN_DinosaurParaRace', FEMALE, 'Face Markings', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Eyes', 60, 0, 100, SKEW1);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Nose - Full', 50, 0, 100, SKEW1);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Crest', 100, 0, 100, SKEW0);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Teeth', 30, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Crest Texture', 50, 20, 100, EVEN);
+    SetMorphProbability('DN_DinosaurParaRace', MALE, 'Face Markings', 50, 100, 100, EVEN);
+
+    SetFaceMorph('DN_DinosaurParaRace', MALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+    SetFaceMorph('DN_DinosaurParaRace', FEMALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+
+	// ---------- T-Rex Gen1/Triceratops Hybrids ---------- 
+    AddChildRace('DN_DinosaurRace', 'FFOSnekdogChildRace'); // Reptilian
+    SetHeadpartProb('DN_DinosaurRace', MALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
+    SetHeadpartProb('DN_DinosaurRace', FEMALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
+
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurRace', MALE, TL_NOSE, 0);
+
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurRace', FEMALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurRace', MALE, TL_NOSE, '|black|');
+
+    SetMorphProbability('DN_DinosaurRace', FEMALE, 'Nose - Full', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurRace', MALE, 'Nose - Full', 50, 100, 100, EVEN);
+
+    SetFaceMorph('DN_DinosaurRace', MALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+    SetFaceMorph('DN_DinosaurRace', FEMALE, 'Nose - Full', 
+        {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
+        {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
+
 end;
 
 end.
