@@ -47,8 +47,7 @@ begin
 	SetClassProb(CLASS_MINUTEMEN, 'DN_DinosaurTriRace', 20);
 	SetClassProb(CLASS_MINUTEMEN, 'DN_DinosaurParaRace', 5);	
 	SetClassProb(CLASS_MINUTEMEN, 'PA_ProtoArgonianRace', 15);
-	SetClassProb(CLASS_MINUTEMEN, 'aaaSharkRace', 5);	
-	SetClassProb(CLASS_MINUTEMEN, 'DCM_DeathclawMutantRace', 15);
+	SetClassProb(CLASS_MINUTEMEN, 'aaaSharkRace', 20);	
 	
     SetClassProb(CLASS_BOS, 'FFOLykaiosRace', 40);
     SetClassProb(CLASS_BOS, 'FFOFoxRace', 20);
@@ -63,7 +62,7 @@ begin
 	SetClassProb(CLASS_BOS, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_BOS, 'DN_DinosaurParaRace', 5);	
 	SetClassProb(CLASS_BOS, 'PA_ProtoArgonianRace', 15);
-	SetClassProb(CLASS_BOS, 'DCM_DeathclawMutantRace', 10);
+	SetClassProb(CLASS_BOS, 'aaaSharkRace', 10);
 	
     SetClassProb(CLASS_RR, 'FFOLykaiosRace', 20);
     SetClassProb(CLASS_RR, 'FFOFoxRace', 20);
@@ -78,7 +77,7 @@ begin
 	SetClassProb(CLASS_RR, 'DN_DinosaurTriRace', 30);
 	SetClassProb(CLASS_RR, 'DN_DinosaurParaRace', 15);	
 	SetClassProb(CLASS_RR, 'PA_ProtoArgonianRace', 10);
-	SetClassProb(CLASS_RR, 'DCM_DeathclawMutantRace', 5); 	
+	SetClassProb(CLASS_RR, 'aaaSharkRace', 5); 	
 	
     // Enemies
 
@@ -95,7 +94,7 @@ begin
 	SetClassProb(CLASS_GUNNER, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_GUNNER, 'DN_DinosaurParaRace', 5);
 	SetClassProb(CLASS_GUNNER, 'PA_ProtoArgonianRace', 10);
-	SetClassProb(CLASS_GUNNER, 'DCM_DeathclawMutantRace', 10); 
+	SetClassProb(CLASS_GUNNER, 'aaaSharkRace', 10); 
 	
     SetClassProb(CLASS_DISCIPLES, 'FFOLykaiosRace', 20);
     SetClassProb(CLASS_DISCIPLES, 'FFOFoxRace', 20);
@@ -110,7 +109,7 @@ begin
 	SetClassProb(CLASS_DISCIPLES, 'DN_DinosaurTriRace', 8);
 	SetClassProb(CLASS_DISCIPLES, 'DN_DinosaurParaRace', 4);
 	SetClassProb(CLASS_DISCIPLES, 'PA_ProtoArgonianRace', 20);
-	SetClassProb(CLASS_DISCIPLES, 'DCM_DeathclawMutantRace', 40); 
+	SetClassProb(CLASS_DISCIPLES, 'aaaSharkRace', 40); 
 	
     SetClassProb(CLASS_OPERATOR, 'FFOLykaiosRace', 20);
     SetClassProb(CLASS_OPERATOR, 'FFOFoxRace', 100);
@@ -125,7 +124,7 @@ begin
 	SetClassProb(CLASS_OPERATOR, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_OPERATOR, 'DN_DinosaurParaRace', 5);
 	SetClassProb(CLASS_OPERATOR, 'PA_ProtoArgonianRace', 20);
-	SetClassProb(CLASS_OPERATOR, 'DCM_DeathclawMutantRace', 10); 
+	SetClassProb(CLASS_OPERATOR, 'aaaSharkRace', 10); 
 	
     SetClassProb(CLASS_PACK, 'FFOLykaiosRace', 20);
     SetClassProb(CLASS_PACK, 'FFOFoxRace', 20);
@@ -140,7 +139,7 @@ begin
 	SetClassProb(CLASS_PACK, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_PACK, 'DN_DinosaurParaRace', 0);
 	SetClassProb(CLASS_PACK, 'PA_ProtoArgonianRace', 5);
-	SetClassProb(CLASS_PACK, 'DCM_DeathclawMutantRace', 10); 
+	SetClassProb(CLASS_PACK, 'aaaSharkRace', 10); 
 	
     SetClassProb(CLASS_RAIDER, 'FFOLykaiosRace', 30);
     SetClassProb(CLASS_RAIDER, 'FFOFoxRace', 30);
@@ -155,10 +154,10 @@ begin
 	SetClassProb(CLASS_RAIDER, 'DN_DinosaurTriRace', 16);
 	SetClassProb(CLASS_RAIDER, 'DN_DinosaurParaRace', 8);
 	SetClassProb(CLASS_RAIDER, 'PA_ProtoArgonianRace', 20);
-	SetClassProb(CLASS_RAIDER, 'DCM_DeathclawMutantRace', 40); 
+	SetClassProb(CLASS_RAIDER, 'aaaSharkRace', 40); 
 	
     // 10:1 otters to others as trappers
-    SetClassProb(CLASS_TRAPPER, 'FFOOtterRace', 700);
+    SetClassProb(CLASS_TRAPPER, 'FFOOtterRace', 550);
     SetClassProb(CLASS_TRAPPER, 'FFOLykaiosRace', 10);
     SetClassProb(CLASS_TRAPPER, 'FFOFoxRace', 10);
     SetClassProb(CLASS_TRAPPER, 'FFOHyenaRace', 10);
@@ -172,8 +171,7 @@ begin
 	SetClassProb(CLASS_TRAPPER, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_TRAPPER, 'DN_DinosaurParaRace', 5);
 	SetClassProb(CLASS_TRAPPER, 'PA_ProtoArgonianRace', 10);
-    SetClassProb(CLASS_TRAPPER, 'aaaSharkRace', 700);
-	SetClassProb(CLASS_TRAPPER, 'DCM_DeathclawMutantRace', 10); 
+    SetClassProb(CLASS_TRAPPER, 'aaaSharkRace', 550);
 	
     // Neutrals 
     SetClassProb(CLASS_INSTITUTE, 'FFOLykaiosRace', 30);
@@ -189,7 +187,7 @@ begin
 	SetClassProb(CLASS_INSTITUTE, 'DN_DinosaurTriRace', 25);
 	SetClassProb(CLASS_INSTITUTE, 'DN_DinosaurParaRace', 25);
 	SetClassProb(CLASS_INSTITUTE, 'PA_ProtoArgonianRace', 10);
-	SetClassProb(CLASS_INSTITUTE, 'DCM_DeathclawMutantRace', 15); 
+	SetClassProb(CLASS_INSTITUTE, 'aaaSharkRace', 15); 
 	
     // 10:1 otters to others in FH
     SetClassProb(CLASS_FARHARBOR, 'FFOLykaiosRace', 5);
@@ -200,14 +198,13 @@ begin
     SetClassProb(CLASS_FARHARBOR, 'FFOCheetahRace', 5);
     SetClassProb(CLASS_FARHARBOR, 'FFOHorseRace', 5);
     SetClassProb(CLASS_FARHARBOR, 'FFODeerRace', 5);
-    SetClassProb(CLASS_FARHARBOR, 'FFOOtterRace', 500);
-	SetClassProb(CLASS_FARHARBOR, 'aaaSharkRace', 500);
+    SetClassProb(CLASS_FARHARBOR, 'FFOOtterRace', 325);
+	SetClassProb(CLASS_FARHARBOR, 'aaaSharkRace', 325);
 	SetClassProb(CLASS_FARHARBOR, 'DN_DinosaurRace', 5);
 	SetClassProb(CLASS_FARHARBOR, 'DN_DinosaurHybridRace', 5);
 	SetClassProb(CLASS_FARHARBOR, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_FARHARBOR, 'DN_DinosaurParaRace', 5);
 	SetClassProb(CLASS_FARHARBOR, 'PA_ProtoArgonianRace', 5);
-	SetClassProb(CLASS_FARHARBOR, 'DCM_DeathclawMutantRace', 5);
  	
     SetClassProb(CLASS_ATOM, 'FFOLykaiosRace', 5);
     SetClassProb(CLASS_ATOM, 'FFOFoxRace', 5);
@@ -223,7 +220,7 @@ begin
 	SetClassProb(CLASS_ATOM, 'DN_DinosaurTriRace', 5);
 	SetClassProb(CLASS_ATOM, 'DN_DinosaurParaRace', 5);
 	SetClassProb(CLASS_ATOM, 'PA_ProtoArgonianRace', 5);
-	SetClassProb(CLASS_ATOM, 'DCM_DeathclawMutantRace', 40); 
+	SetClassProb(CLASS_ATOM, 'aaaSharkRace', 40); 
 	
     SetClassProb(CLASS_SETTLER, 'FFOLykaiosRace', 20);
     SetClassProb(CLASS_SETTLER, 'FFOFoxRace', 20);
@@ -239,8 +236,7 @@ begin
 	SetClassProb(CLASS_SETTLER, 'DN_DinosaurTriRace', 15);
 	SetClassProb(CLASS_SETTLER, 'DN_DinosaurParaRace', 15);
 	SetClassProb(CLASS_SETTLER, 'PA_ProtoArgonianRace', 10);
-    SetClassProb(CLASS_SETTLER, 'aaaSharkRace', 3);
-	SetClassProb(CLASS_SETTLER, 'DCM_DeathclawMutantRace', 10); 
+    SetClassProb(CLASS_SETTLER, 'aaaSharkRace', 13);
 	
     // Followers. There's at least one follower of each race.
     SetClassProb(CLASS_GARVEY, 'FFOLionRace', 100);
@@ -621,11 +617,11 @@ begin
     SetTintColors('PA_ProtoArgonianRace', MALE, TL_PAINT, '|black|WarpaintRed01|WarpaintRed02|WarpaintRed03|WarpaintBlue03|WarpaintBlue04|WarpaintGreen01|WarpaintGreen02|WarpaintGreen03|WarpaintOrange01|WarpaintOrange02|WarpaintYellow01|WarpaintYellow02|WarpaintYellow03|');
 
     SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Eyes', 70, 0, 100, EVEN);
-    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Cheeks', 70, 50, 100, SKEW1);
-    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Nose', 70, 0, 100, EVEN);
+    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Tusks', 70, 50, 100, SKEW1);
+    SetMorphProbability('PA_ProtoArgonianRace', FEMALE, 'Head', 70, 0, 100, EVEN);
     SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Eyes', 70, 0, 100, EVEN);
-    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Cheeks', 70, 50, 100, SKEW1);
-    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Nose', 70, 0, 100, EVEN);
+    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Tusks', 70, 50, 100, SKEW1);
+    SetMorphProbability('PA_ProtoArgonianRace', MALE, 'Head', 70, 0, 100, EVEN);
 
     SetFaceMorph('PA_ProtoArgonianRace', MALE, 'Nose - Full', 
         {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
@@ -667,6 +663,29 @@ begin
         {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
         {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
 
+
+    // ---------- Triceratops Dinos ---------- 
+    AddChildRace('DN_DinosaurTriRace', 'FFOSnekdogChildRace'); // Reptilian
+    SetHeadpartProb('DN_DinosaurTriRace', MALE, HEADPART_FACIAL_HAIR, 30); // Piercings
+    SetHeadpartProb('DN_DinosaurTriRace', FEMALE, HEADPART_FACIAL_HAIR, 30); // Piercings
+
+    SetTintProbability('DN_DinosaurTriRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurTriRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurTriRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurTriRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurTriRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurTriRace', MALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurTriRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurTriRace', MALE, TL_NOSE, 0);
+
+    SetTintColors('DN_DinosaurTriRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurTriRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurTriRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurTriRace', FEMALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurTriRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurTriRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurTriRace', MALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurTriRace', MALE, TL_NOSE, '|black|');
 
     // ---------- Parasaurolophus Dinos ---------- 
     AddChildRace('DN_DinosaurParaRace', 'FFOSnekdogChildRace'); // Reptilian

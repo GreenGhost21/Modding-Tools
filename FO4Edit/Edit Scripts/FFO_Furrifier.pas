@@ -130,6 +130,7 @@ begin
 	SkinLayerTranslation('Eye of Selachis', TL_EYELINER);
 	SkinLayerTranslation('Facial Freckles', TL_FOREHEAD);
 	SkinLayerTranslation('Lateral Slice', TL_PAINT);
+	SkinLayerTranslation('Latteral Slice', TL_PAINT);
 	SkinLayerTranslation('Mark of the Abyss', TL_PAINT);
 	SkinLayerTranslation('Raider 1 (Layer #1)', TL_MASK);
 	SkinLayerTranslation('Raider 1 (Layer #2)', TL_PAINT);
@@ -169,7 +170,6 @@ begin
 	SkinLayerTranslation('Eyeliner 7', TL_EYELINER);
 	SkinLayerTranslation('Eyeliner 8', TL_EYELINER);
 	SkinLayerTranslation('Eyes', TL_EYELINER);
-	SkinLayerTranslation('Latteral Slice', TL_PAINT);
 	SkinLayerTranslation('Muzzle Stripes', TL_MUZZLE_STRIPE);
 	SkinLayerTranslation('Eye Smudge', TL_EYELINER);
 	SkinLayerTranslation('Cheeckbone Bars', TL_CHEEK_COLOR); // sic
