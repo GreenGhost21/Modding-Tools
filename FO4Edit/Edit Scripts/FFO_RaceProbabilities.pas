@@ -657,8 +657,8 @@ begin
     SetTintColors('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, '|black||');
     SetTintColors('DN_DinosaurRace', MALE, TL_NOSE, '|black|');
 
-    SetMorphProbability('DN_DinosaurRace', FEMALE, 'Nose - Full', 50, 100, 100, EVEN);
-    SetMorphProbability('DN_DinosaurRace', MALE, 'Nose - Full', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurRace', FEMALE, 'Mouth', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurRace', MALE, 'Mouth', 50, 100, 100, EVEN);
 
     SetFaceMorph('DN_DinosaurRace', MALE, 'Nose - Full', 
         {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
@@ -714,35 +714,35 @@ begin
         {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
 
 	// ---------- T-Rex Gen1/Triceratops Hybrids ---------- 
-    AddChildRace('DN_DinosaurRace', 'FFOSnekdogChildRace'); // Reptilian
-    SetHeadpartProb('DN_DinosaurRace', MALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
-    SetHeadpartProb('DN_DinosaurRace', FEMALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
+    AddChildRace('DN_DinosaurHybridRace', 'FFOSnekdogChildRace'); // Reptilian
+    SetHeadpartProb('DN_DinosaurHybridRace', MALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
+    SetHeadpartProb('DN_DinosaurHybridRace', FEMALE, HEADPART_FACIAL_HAIR, 100); // Triceratops Horns
 
-    SetTintProbability('DN_DinosaurRace', FEMALE, TL_EYELINER, 0);
-    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MASK, 0);
-    SetTintProbability('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, 40);
-    SetTintProbability('DN_DinosaurRace', FEMALE, TL_NOSE, 0);
-    SetTintProbability('DN_DinosaurRace', MALE, TL_EYELINER, 0);
-    SetTintProbability('DN_DinosaurRace', MALE, TL_MASK, 0);
-    SetTintProbability('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, 40);
-    SetTintProbability('DN_DinosaurRace', MALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurHybridRace', FEMALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurHybridRace', FEMALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurHybridRace', FEMALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurHybridRace', FEMALE, TL_NOSE, 0);
+    SetTintProbability('DN_DinosaurHybridRace', MALE, TL_EYELINER, 0);
+    SetTintProbability('DN_DinosaurHybridRace', MALE, TL_MASK, 0);
+    SetTintProbability('DN_DinosaurHybridRace', MALE, TL_MUZZLE_STRIPE, 40);
+    SetTintProbability('DN_DinosaurHybridRace', MALE, TL_NOSE, 0);
 
-    SetTintColors('DN_DinosaurRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
-    SetTintColors('DN_DinosaurRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
-    SetTintColors('DN_DinosaurRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
-    SetTintColors('DN_DinosaurRace', FEMALE, TL_NOSE, '|black|');
-    SetTintColors('DN_DinosaurRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
-    SetTintColors('DN_DinosaurRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
-    SetTintColors('DN_DinosaurRace', MALE, TL_MUZZLE_STRIPE, '|black||');
-    SetTintColors('DN_DinosaurRace', MALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurHybridRace', FEMALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurHybridRace', FEMALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurHybridRace', FEMALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurHybridRace', FEMALE, TL_NOSE, '|black|');
+    SetTintColors('DN_DinosaurHybridRace', MALE, TL_EYELINER, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurHybridRace', MALE, TL_MASK, '|black|DarkBrown|MidBrown|LightBrown|MidGrey|LightGrey|DeepRed|MidRed|LightRed|Pink|LightPink|DeepBlue|MidBlue|LightBlue|Orange|yellow|DeepGreen|Green|NeonGreen|DeepTurquoise|Turquoise|DeepPurple|Purple|LightPurple|');
+    SetTintColors('DN_DinosaurHybridRace', MALE, TL_MUZZLE_STRIPE, '|black||');
+    SetTintColors('DN_DinosaurHybridRace', MALE, TL_NOSE, '|black|');
 
-    SetMorphProbability('DN_DinosaurRace', FEMALE, 'Nose - Full', 50, 100, 100, EVEN);
-    SetMorphProbability('DN_DinosaurRace', MALE, 'Nose - Full', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurHybridRace', FEMALE, 'Mouth', 50, 100, 100, EVEN);
+    SetMorphProbability('DN_DinosaurHybridRace', MALE, 'Mouth', 50, 100, 100, EVEN);
 
-    SetFaceMorph('DN_DinosaurRace', MALE, 'Nose - Full', 
+    SetFaceMorph('DN_DinosaurHybridRace', MALE, 'Nose - Full', 
         {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
         {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
-    SetFaceMorph('DN_DinosaurRace', FEMALE, 'Nose - Full', 
+    SetFaceMorph('DN_DinosaurHybridRace', FEMALE, 'Nose - Full', 
         {loc min} 0, 0, -1,  {rot min} 0, 0, 0, {scale min} 0,
         {loc max} 0, 0, 1,  {rot max} 0, 0, 0, {scale max} 0);
 
